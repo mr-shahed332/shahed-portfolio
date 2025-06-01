@@ -1,0 +1,322 @@
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shahed | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f2f4f8;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #111827;
+    }
+
+    header p {
+      color: #6b7280;
+      font-size: 1.2rem;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 12px;
+      width: 200px;
+      height: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #2563eb;
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    ul li {
+      padding: 6px 0;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "•";
+      color: #2563eb;
+      position: absolute;
+      left: -15px;
+    }
+
+    .contact {
+      background: #2563eb;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 20px 15px;
+      }
+    }
+    @media (max-width: 500px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  ul li {
+    font-size: 0.95rem;
+  }
+
+  .contact {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .profile-img {
+    width: 150px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mr. Shahed</h1>
+      <p>Web Developer | MCA Student | Code Learner</p>
+      <img src="my Image.png" alt="Shahed Image" class="profile-img" />
+    </header>
+
+    <section>
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><strong>10th Class:</strong> 58.80%</li>
+        <li><strong>12th Class:</strong> 80.60%</li>
+        <li><strong>BCA:</strong> 71.60 CGPA</li>
+        <li><strong>MCA:</strong> Currently Pursuing</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💻 Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>MySQL, Node.js</li>
+        <li>Java (Beginner)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏏 Hobbies</h2>
+      <ul>
+        <li>Cricket</li>
+        <li>Reading</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📬 Contact Me</h2>
+      <div class="contact">Email: shaikhshahed332@gmail.com</div>
+    </section>
+  </div>
+</body>
+</html>
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr. Shahed - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 2.5em;
+      color: #1f2937;
+    }
+
+    .header p {
+      font-size: 1.2em;
+      color: #4b5563;
+      margin-top: 5px;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 12px;
+      max-width: 200px;
+      height: auto;
+    }
+
+    h2 {
+      color: #2563eb;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .contact {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Mr. Shahed</h1>
+      <p>I love to learn and grow every day 🚀</p>
+      <img src="my Image.png" alt="My Photo" class="profile-img" />
+    </div>
+
+    <h2>🎓 Education</h2>
+    <ul>
+      <li><strong>10th Class:</strong> 58.80%</li>
+      <li><strong>12th Class:</strong> 80.60%</li>
+      <li><strong>BCA:</strong> CGPA 71.60</li>
+      <li><strong>MCA:</strong> Pursuing</li>
+    </ul>
+
+    <h2>💻 My Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>MySQL, Node.js</li>
+      <li>Java</li>
+    </ul>
+
+    <h2>⚽ Hobbies</h2>
+    <ul>
+      <li>Cricket</li>
+      <li>Reading</li>
+    </ul>
+
+    <h2>📬 Contact Me</h2>
+    <p class="contact">Email: shaikhshahed332@gmail.com</p>
+  </div>
+
+</body>
+</html>
+
+ 
+ <!-- <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+    </head>
+
+    <body>
+        <h1>Mr.Shahed</h1>
+        <p>I love to learn</p>
+        <img src="my Image.png" alt="mine" width="200em" height="300em">
+
+        <ol type="1">
+            <h2>Education</h2>
+            <ul>
+                <li><b>10th Class :</b>58.80</li>
+                <li><b>12th Class :</b>80.60</li>
+                <li><b>Bachelor Of Computer Application (BCA) :</b>CGPA: 71.60</li>
+                <li><b>Pursuing Master of Computer Application (MCA) :</b>----</li>
+            </ul>
+
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML, CSS, Javascript </li>
+                <li>MySql, Nodejs</li>
+                <li>Java</li>
+            </ul>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Crickect</li>
+                <li>Reading</li>
+            </ul>
+
+            <h2>Contact Me</h2>
+            <ul>
+                <li><b>Email :</b>shaikhshahed332@gmail.com</li>
+            </ul>
+
+        </ol>
+    </body>
+
+    </html> --> -->
