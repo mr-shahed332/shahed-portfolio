@@ -13,7 +13,7 @@
 - JavaScript
 
 ## 📸 Preview
-![screenshot](profile.jpg)
+![screenshot](profile.png)
 
 ## 🧑‍💻 Author
 Shahed – MCA Student & Web Developer  
